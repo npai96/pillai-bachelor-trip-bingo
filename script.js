@@ -20,7 +20,7 @@ const prompts = [
   "Nihal spends >25 min in the bathroom",
   "Someone suggests late night Taco Bell",
   "Mehar wears his elephant shirt",
-  "Someone challenges someone to 1v1",
+  "Someone challenges someone to 1v1 🏀",
   "Someone pukes",
   "Someone bums a cig off someone not in the Bach party",
   "Someone does work",
@@ -134,7 +134,7 @@ function createBoard(useExistingOrder = false) {
     const shouldHide = currentUser && shouldHidePrompt(tileText, currentUser);
     
     if (shouldHide) {
-      tile.textContent = "Hiding this one because it's about u ;)";
+      tile.textContent = "Hiding this one because it's about u";
       tile.classList.add("hidden");
     } else {
       tile.textContent = tileText;
