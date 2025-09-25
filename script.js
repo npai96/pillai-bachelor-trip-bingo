@@ -77,10 +77,16 @@ function shouldHidePrompt(prompt, user) {
   const promptLower = prompt.toLowerCase();
   const firstName = user.firstName.toLowerCase();
   const lastName = user.lastName.toLowerCase();
+  const fullName = `${firstName} ${lastName}`;
   
   // Special case for Sahil - need full name matching for both Sahils
   if (firstName === 'sahil') {
     return promptLower.includes(`${firstName} ${lastName}`);
+  }
+  
+  // Special case for Sid - hide "Sid" prompts for "Sid Pillai" and "Siddharth Pillai"
+  if (fullName === 'sid pillai' || fullName === 'siddharth pillai') {
+    return promptLower.includes('sid');
   }
   
   // For everyone else, just match first name
