@@ -20,7 +20,7 @@ const prompts = [
   "Nihal spends >25 min in the bathroom",
   "Someone suggests late night Taco Bell",
   "Mehar wears his elephant shirt",
-  "Someone challenges someone to basketball",
+  "Someone challenges someone to 1v1",
   "Someone pukes",
   "Someone bums a cig off someone not in the Bach party",
   "Someone does work",
@@ -29,14 +29,14 @@ const prompts = [
   "Theo breaks into a little dance",
   "Sehej mentions his hold handicap",
   "Sahil Mohan takes a hit off someone else's vape",
+  "Sid code switches into his British accent",
+  "D'ússé & Lemonade make an appearance",
+  "Sid wears >= 2 chains",
   "Placeholder 1",
   "Placeholder 2",
   "Placeholder 3",
   "Placeholder 4",
   "Placeholder 5",
-  "Placeholder 6",
-  "Placeholder 7",
-  "Placeholder 8",
 ];
 
 const board = document.getElementById("bingoBoard");
