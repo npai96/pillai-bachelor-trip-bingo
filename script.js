@@ -32,11 +32,11 @@ const prompts = [
   "Sid code switches into his British accent",
   "D'ússé & Lemonade make an appearance",
   "Sid wears >= 2 chains",
-  "Placeholder 1",
-  "Placeholder 2",
-  "Placeholder 3",
-  "Placeholder 4",
-  "Placeholder 5",
+  "Someone calls Sid FFP",
+  "Someone jumps in the pool wearing normal clothes",
+  "Someone suggests going to a strip club",
+  "Someone shotguns a beer",
+  "Someone gets lost in Vegas",
 ];
 
 const board = document.getElementById("bingoBoard");
